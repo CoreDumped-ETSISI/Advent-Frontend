@@ -1,0 +1,37 @@
+:root{
+    --body-color: #191919;
+    --header-color: #750E21;
+    --text-color: #BED754;
+    --complimentary-color: #E3651D;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+header{
+    background-color: var(--header-color);
+    min-height: 50px;
+    padding: 20px;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
+.session{
+    color: var(--text-color);
+    float: left;
+}
+.logo{
+    margin-right: auto;
+    max-width: 150px;
+}
+.problem-select{
+    color: var(--text-color);
+}
