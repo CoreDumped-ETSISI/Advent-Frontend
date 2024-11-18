@@ -1,8 +1,8 @@
 :root{
-    --body-color: #191919;
-    --header-color: #750E21;
-    --text-color: #BED754;
-    --complimentary-color: #E3651D;
+    --black: #191919;
+    --red: #530a16;
+    --green: #BED754;
+    --orange: #E3651D;
 }
 * {
     margin: 0;
@@ -11,21 +11,21 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    background-color: var(--body-color);
-    color: var(--text-color);
+    background-color: var(--black);
+    color: var(--green);
 }
 header{
-    background-color: var(--header-color);
+    background-color: var(--red);
     min-height: 50px;
     padding: 20px;
-    color: var(--text-color);
+    color: var(--green);
     display: flex;
     align-items: center;
     overflow: hidden;
     margin: 0;
 }
 .session{
-    color: var(--text-color);
+    color: var(--green);
     float: left;
 }
 .logo{
@@ -33,5 +33,5 @@ header{
     max-width: 150px;
 }
 .problem-select{
-    color: var(--text-color);
+    color: var(--green);
 }

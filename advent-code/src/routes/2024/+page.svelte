@@ -2,7 +2,7 @@
 	<title>Años</title>
 </head>
 
-<p>Selecciona un año en el tronco del árbol:</p>
+<p>Selecciona un problema en el tronco del árbol:</p>
 <div class="tree">
 	<pre>
              /\
@@ -28,7 +28,8 @@
  /                        \
 /,.,.,.,.,.,.,.,.,.,.,.,.,.\
            |    |
-           <a href="/2024" class="problem-select">[2024]</a>
+           <a href="/2" class="problem-select">[ 02 ]</a>
+           <a href="/24" class="problem-select">[ 24 ]</a>
         </pre>
 </div>
 
