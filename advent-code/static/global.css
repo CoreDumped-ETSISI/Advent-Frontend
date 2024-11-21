@@ -24,12 +24,21 @@ header{
     overflow: hidden;
     margin: 0;
 }
+footer{
+    min-height: 50px;
+    padding: 20px;
+    color: var(--green);
+    margin: 0;
+    bottom: 0;
+
+}
 .void{
     margin-right: auto;
 }
 .session{
     color: var(--green);
     float: right;
+    padding: 8px;
 }
 .logo{
     margin-right: auto;
@@ -37,6 +46,7 @@ header{
 }
 .problem-select{
     color: var(--green);
+    padding-bottom: 16px;
 }
 
 .terminal-input {
@@ -59,4 +69,10 @@ header{
 }
 .terminal-button:hover {
     background-color: black;
+}
+.center{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
 }

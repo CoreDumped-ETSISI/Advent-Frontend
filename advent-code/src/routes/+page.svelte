@@ -1,3 +1,9 @@
+<script lang="ts">
+	import type { PageData } from './$types.ts';
+
+	let { data }: { data: PageData } = $props();
+</script>
+
 <head>
 	<title>Años</title>
 </head>
@@ -28,8 +34,10 @@
  /                        \
 /,.,.,.,.,.,.,.,.,.,.,.,.,.\
            |    |
-           <a href="/2024" class="problem-select">[2024]</a>
-        </pre>
+</pre>
+	{#each data.data as year}
+		<a href="/{year}" class="problem-select">[{year}]</a>
+	{/each}
 </div>
 
 <style>
@@ -45,5 +53,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-direction: column;
+	}
+	.problem-select {
+		margin-top: 0;
+		padding-top: 0;
 	}
 </style>

@@ -1,0 +1,22 @@
+<table>
+	<tbody>
+		<tr>
+			<th>Posición</th>
+			<th>Usuario</th>
+			<th>Problemas resueltos</th>
+			<th>Tiempo</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Juan</td>
+			<td>5</td>
+			<td>5h30</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Maria</td>
+			<td>3</td>
+			<td>3h30</td>
+		</tr>
+	</tbody>
+</table>
