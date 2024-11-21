@@ -24,9 +24,12 @@ header{
     overflow: hidden;
     margin: 0;
 }
+.void{
+    margin-right: auto;
+}
 .session{
     color: var(--green);
-    float: left;
+    float: right;
 }
 .logo{
     margin-right: auto;
@@ -34,4 +37,26 @@ header{
 }
 .problem-select{
     color: var(--green);
+}
+
+.terminal-input {
+    background-color: var(--black); /* Dark background for the input */
+    color: var(--green); /* Green text for terminal-like appearance */
+    margin: 8px;
+    outline: none;
+    caret-color: var(--green); /* Green blinking cursor */
+    border-color: var(--green);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.terminal-button {
+    background-color: var(--black); /* Dark background for the input */
+    color: var(--green); /* Green text for terminal-like appearance */
+    margin: 8px;
+    padding: 8px;
+    border-radius: 24px;
+}
+.terminal-button:hover {
+    background-color: black;
 }

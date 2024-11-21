@@ -28,8 +28,8 @@
  /                        \
 /,.,.,.,.,.,.,.,.,.,.,.,.,.\
            |    |
-           <a href="/2" class="problem-select">[ 02 ]</a>
-           <a href="/24" class="problem-select">[ 24 ]</a>
+           <a href="/2024/02" class="problem-select">[ 02 ]</a>
+           <a href="/2024/24" class="problem-select">[ 24 ]</a>
         </pre>
 </div>
 
