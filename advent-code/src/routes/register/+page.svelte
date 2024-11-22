@@ -6,13 +6,14 @@
 	$effect(() => {
 		console.log(form);
 		if (form?.success) {
+			alert('Registrado con exito, por favor inicia sesión.');
 			goto('/login');
 		}
 	});
 </script>
 
 <form method="POST" class="center">
-	<input type="text" name="email" id="email" class="terminal-input" placeholder="email o usuario" />
+	<input type="email" name="email" id="email" class="terminal-input" placeholder="Email" />
 	<br />
 	<input
 		type="text"
@@ -23,7 +24,7 @@
 	/>
 	<br />
 	<input
-		type="text"
+		type="password"
 		name="password"
 		id="password"
 		class="terminal-input"

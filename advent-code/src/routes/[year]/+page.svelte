@@ -4,10 +4,6 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<head>
-	<title>Años</title>
-</head>
-
 <p>Selecciona un problema en el tronco del árbol:</p>
 <div class="tree">
 	<pre>
