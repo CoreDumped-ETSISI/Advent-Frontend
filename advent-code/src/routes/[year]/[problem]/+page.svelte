@@ -1,14 +1,36 @@
 <script lang="ts">
-	import type { PageData } from './$types.ts';
+	import { goto } from '$app/navigation';
+	import type { PageData, ActionData } from './$types.ts';
 
-	let { data }: { data: PageData } = $props();
+	let { data, form }: { data: PageData; form: ActionData } = $props();
 </script>
 
-{@html data.data.problema}
+<div class="problem">
+	{@html data.data.problema}
+</div>
 <form method="POST">
-	<label class="terminal-input">
-		Respuesta &gt;
-		<input type="text" name="respuesta" id="respuesta" class="terminal-input" />
-	</label>
-	<button class="terminal-button">Enviar respuesta</button>
+	{#if !data.data.respuesta_valida}
+		<label class="terminal-input">
+			Respuesta &gt;
+			<input type="text" name="respuesta" id="respuesta" class="terminal-input" />
+		</label>
+		<button class="terminal-button">Enviar respuesta</button>
+		{#if form?.error}
+			<div class="error">
+				! {form.error}
+			</div>
+		{/if}
+	{:else}
+		<p class="error">Problema completado!</p>
+	{/if}
 </form>
+
+<style>
+	.problem {
+		padding: 8px;
+	}
+	.error {
+		color: var(--orange);
+		padding: 8px;
+	}
+</style>

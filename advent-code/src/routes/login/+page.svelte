@@ -4,7 +4,6 @@
 
 	let { data, form }: { data: PageData; form: ActionData } = $props();
 	$effect(() => {
-		console.log(form);
 		if (form?.success) {
 			goto('/');
 		}
