@@ -4,6 +4,9 @@
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
+<head>
+	<title>Adviento Core Dumped</title>
+</head>
 <link rel="stylesheet" href="/global.css" />
 
 <header>

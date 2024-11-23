@@ -21,6 +21,7 @@
 		id="username"
 		class="terminal-input"
 		placeholder="Nombre de usuario"
+		maxlength="24"
 	/>
 	<br />
 	<input

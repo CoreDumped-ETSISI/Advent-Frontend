@@ -4,10 +4,6 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<head>
-	<title>Años</title>
-</head>
-
 <p>Selecciona un año en el tronco del árbol:</p>
 <div class="tree">
 	<pre>
@@ -36,7 +32,7 @@
            |    |
 </pre>
 	{#each data.data as year}
-		<a href="/{year}" class="problem-select">[{year}]</a>
+		<a href="/{year}" class="problem-select">[{year}]</a>|&nbsp;&nbsp;&nbsp;&nbsp;|
 	{/each}
 </div>
 
@@ -57,6 +53,6 @@
 	}
 	.problem-select {
 		margin-top: 0;
-		padding-top: 0;
+		padding: 0;
 	}
 </style>

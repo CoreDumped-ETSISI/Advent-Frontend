@@ -29,12 +29,13 @@
   /*&*&*&*&*&*&*&*&*&*&*&\
  /                        \
 /,.,.,.,.,.,.,.,.,.,.,.,.,.\
-           |    |
 </pre>
+	<a href="/{data.year}/ranking" class="problem-select">[Clasificación]</a>
+	|&nbsp;&nbsp;&nbsp;&nbsp;|
 	{#each data.data as problem}
 		<a href="/{data.year}/{problem}" class="problem-select"
 			>[ {problem.toString().padStart(2, '0')} ]</a
-		>
+		>|&nbsp;&nbsp;&nbsp;&nbsp;|
 	{/each}
 </div>
 
@@ -55,6 +56,6 @@
 	}
 	.problem-select {
 		margin-top: 0;
-		padding-top: 0;
+		padding: 0;
 	}
 </style>

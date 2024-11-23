@@ -5,7 +5,7 @@ import { error, fail, redirect, type Actions } from '@sveltejs/kit';
 interface Problem{
     respuesta_valida? : boolean,
     problema? : string,
-    tiempo_para_debloquear?: string
+    tiempo_para_desbloquear?: string
 }
 
 export const load: PageServerLoad = async ({ params, cookies }) => {
