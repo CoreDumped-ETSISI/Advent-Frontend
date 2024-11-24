@@ -76,3 +76,23 @@ footer{
     align-self: center;
     flex-direction: column;
 }
+h1{
+    padding-bottom: 8px;
+}
+code {
+    font-family: monospace;
+    color: var(--orange);
+}
+li{
+    list-style-type: circle;
+    margin-left: 16px;
+}
+ul,p{
+    margin-bottom: 8px;
+}
+pre:not(.pre-tree){
+    padding: 0px 8px 0px 8px;
+    width: fit-content;
+    border: 1px solid;
+    margin-bottom: 8px;
+}

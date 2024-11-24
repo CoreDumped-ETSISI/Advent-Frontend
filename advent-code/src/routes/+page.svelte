@@ -6,7 +6,7 @@
 
 <p>Selecciona un año en el tronco del árbol:</p>
 <div class="tree">
-	<pre>
+	<pre class="pre-tree">
              /\
             &lt;  &gt;
              \/
