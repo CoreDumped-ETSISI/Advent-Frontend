@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: .
+    container_name: advent-frontend
+    ports:
+      - '4735:3000' # Adjust the port if your backend uses a different one
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

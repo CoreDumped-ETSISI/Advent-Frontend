@@ -4,6 +4,13 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
+<p>
+	El Calendario de Adviento de Core Dumped es una competición navideña de informática. Pondrás a
+	prueba todas las habilidades que has aprendido en la escuela. Cada día lectivo de diciembre se
+	desbloqueará un nuevo problema a resolver. ¡Atrevete, crea una cuenta y ve a por el top del
+	ranking anual, puede que te lleves algún premio! (No hagas trampas y uses IA que nos ponemos
+	tristes :C )
+</p>
 <p>Selecciona un año en el tronco del árbol:</p>
 <div class="tree">
 	<pre class="pre-tree">
