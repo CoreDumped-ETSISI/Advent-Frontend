@@ -5,7 +5,7 @@
 	let userid = $state('');
 	$effect(() => {
 		if (data.token) {
-			userid = atob(data.token.split('.')[1]).username;
+			userid = JSON.parse(atob(data.token.split('.')[1])).username;
 		}
 	});
 </script>
