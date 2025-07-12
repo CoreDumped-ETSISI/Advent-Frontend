@@ -21,11 +21,7 @@
 
 ## Installation
 
-1. Install ruby and rails
-2. Clone this repository
-3. Run `bundle install`
-4. `rails db:migrate`
-5. `rails server`
+
 
 ## Usage
 
